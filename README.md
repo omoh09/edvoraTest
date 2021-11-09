@@ -3,6 +3,7 @@
     host: advora-test-api.herokuapp.com
     basePath: /api/
 
+PostMan Collection https://documenter.getpostman.com/view/11783227/UVC5D7Dd
 # Getting Started #
 Our API is organised around using HTTP verbs and REST. Our API accepts and returns JSON formatted payload
 
