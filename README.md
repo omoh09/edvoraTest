@@ -72,7 +72,7 @@ Sample Response
 ```
 
 # Forget password Api #
-This endpoint is commonly used to create a todo
+This endpoint is commonly used forget password
 |  |  |
 | ------ | ------ |
 | Request Type | ``` POST ``` |
@@ -101,7 +101,7 @@ Sample Response
 ```
 
 # Reset password Api  #
-This endpoint is commonly used to create a todo
+This endpoint is commonly used terminate all session and reset the password
 |  |  |
 | ------ | ------ |
 | Request Type | ``` POST ``` |
@@ -134,4 +134,22 @@ Sample Response
 ]
 ```
 
+# Terminate Api  #
+This endpoint is commonly used to terminate the session ad logout
+|  |  |
+| ------ | ------ |
+| Request Type | ``` POST ``` |
+| Endpoint |  ``` /logout ``` |
+
+
+```
+Sample Response
+```json
+[
+      {
+           "status": 200,
+            "message": "session terminated, logout success",
+      }
+]
+```
 
